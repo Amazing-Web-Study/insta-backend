@@ -20,9 +20,7 @@ module.exports = (sequelize, DataTypes) => {
     profileImg: DataTypes.STRING,
     nickName: DataTypes.STRING,
     description: DataTypes.STRING,
-    created_at:DataTypes.DATETIME,
-    updated_at:DataTypes.DATETIME,
-    private:BOOLEAN,
+    private:DataTypes.BOOLEAN,
   }, 
   {
     sequelize,
